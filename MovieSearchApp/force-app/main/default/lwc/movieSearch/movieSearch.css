@@ -1,0 +1,9 @@
+.movieApp{
+    background-color: white;
+    border: 2px solid black;
+}
+
+.displayStyle{
+    height: 600px;
+    background-color:black;
+}

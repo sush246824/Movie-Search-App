@@ -1,0 +1,17 @@
+<template>
+    <template if:true={loadingComponent}>
+        <div class="slds-var-m-around_small container">
+            <div class="slds-grid slds-gutters">
+                <div class="slds-col slds-var-m-around_small movie-poster">
+                    <span><img src={movieDetailData.Poster}></span>
+                </div>
+                <div class="slds-col movie-detail">
+                    <p>Title : {movieDetailData.Title}</p>
+                    <p>Year : {movieDetailData.Year}</p>
+                    <p>Released : {movieDetailData.Released}</p>
+                    <p>Rating : {movieDetailData.imdbRating}</p>
+                </div>
+            </div>
+        </div>
+    </template>
+</template>
